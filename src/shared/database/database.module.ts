@@ -12,6 +12,6 @@ import { BankAccountsRepository } from './repositories/bank-accounts.repositorie
     CategoriesRepository,
     BankAccountsRepository,
   ],
-  exports: [UserRepository, CategoriesRepository],
+  exports: [UserRepository, CategoriesRepository, BankAccountsRepository],
 })
 export class DatabaseModule {}
